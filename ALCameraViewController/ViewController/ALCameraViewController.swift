@@ -109,7 +109,7 @@ public class ALCameraViewController: UIViewController {
     }
     
     public override func supportedInterfaceOrientations() -> UIInterfaceOrientationMask {
-        return .Portrait
+        return .Landscape
     }
     
     public override func viewWillAppear(animated: Bool) {

@@ -26,7 +26,6 @@
 		36F77EA61C48CFC6002FF203 /* ALImageExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41E42B41BEC6F680028B993 /* ALImageExtensions.swift */; };
 		36F77EA71C48CFC9002FF203 /* ALImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB50BF21B413E8C009905B9 /* ALImageModel.swift */; };
 		36F77EAA1C48CFF0002FF203 /* ALCameraViewControllerKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 36F77E8E1C48CFA7002FF203 /* ALCameraViewControllerKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		36F77EAB1C48D375002FF203 /* ALCameraViewController.swift in Headers */ = {isa = PBXBuildFile; fileRef = FAF058651B316695008E5592 /* ALCameraViewController.swift */; settings = {ATTRIBUTES = (Public, ); }; };
 		C41E42B51BEC6F680028B993 /* ALImageExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41E42B41BEC6F680028B993 /* ALImageExtensions.swift */; };
 		C41E42B71BEC98520028B993 /* ALConfirmViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C41E42B61BEC98520028B993 /* ALConfirmViewController.xib */; };
 		FA52EE0B1B44129B00E16B6F /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA52EE0A1B44129B00E16B6F /* ViewController.xib */; };
@@ -270,7 +269,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				36F77EAB1C48D375002FF203 /* ALCameraViewController.swift in Headers */,
 				36F77EAA1C48CFF0002FF203 /* ALCameraViewControllerKit.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -677,6 +675,7 @@
 				36F77E971C48CFA7002FF203 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FAF0583A1B31618D008E5592 /* Build configuration list for PBXProject "ALCameraViewController" */ = {
 			isa = XCConfigurationList;
